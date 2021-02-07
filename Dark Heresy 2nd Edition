@@ -1,0 +1,5 @@
+# Constant Vigilance initiative roll with gif
+&{template:default} {{name=<img src=https://i.imgur.com/TC8TdM9.gif)}} {{Initiative=[[2d10k1+floor(@{Perception}/10) &{tracker}]]}}
+
+# Dodge skill using Wisdom to evade psychic attacks
+&{template:dh2ed}[[[[floor((@{Willpower} + (-20 + @{Dodge1} + @{Dodge2} + @{Dodge3} + @{Dodge4}) +[[?{Modifier|+0}]])/10))]]-[[floor([[1d100]]/10)]]]] {{name=<img src=https://i.imgur.com/JV30aOo.gif)}}{{Deny the Witch=}}{{roll= $[[2]] }}{{degrees=$[[4]]}}{{skill=[[@{Willpower} + (-20 + @{Dodge1} + @{Dodge2} + @{Dodge3} + @{Dodge4})]]}} {{modifier=?{Modifier|+0} }} {{target=[[@{Willpower} + (-20 + @{Dodge1} + @{Dodge2} + @{Dodge3} + @{Dodge4}) + [[?{Modifier|+0}]]]]}}
