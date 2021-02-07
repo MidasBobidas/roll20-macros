@@ -3,3 +3,6 @@
 
 # Dodge skill using Wisdom to evade psychic attacks
 &{template:dh2ed}[[[[floor((@{Willpower} + (-20 + @{Dodge1} + @{Dodge2} + @{Dodge3} + @{Dodge4}) +[[?{Modifier|+0}]])/10))]]-[[floor([[1d100]]/10)]]]] {{name=<img src=https://i.imgur.com/JV30aOo.gif)}}{{Deny the Witch=}}{{roll= $[[2]] }}{{degrees=$[[4]]}}{{skill=[[@{Willpower} + (-20 + @{Dodge1} + @{Dodge2} + @{Dodge3} + @{Dodge4})]]}} {{modifier=?{Modifier|+0} }} {{target=[[@{Willpower} + (-20 + @{Dodge1} + @{Dodge2} + @{Dodge3} + @{Dodge4}) + [[?{Modifier|+0}]]]]}}
+
+# Resisting psychic powers as a psyker
+&{template:default} {{name=<img src=https://i.imgur.com/qnTpalH.gif)}}{{willpower=[[@{Willpower}]]}}{{resistance(Psychic)=+[[0d0+10]]}}{{Bastion of Iron Will=+[[5*@{PsyRating}]]}}{{target=[[@{Willpower}+[[10]]+[[5*@{PsyRating}]]]]}} {{Dice Roll=[[1d100]]}}
