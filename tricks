@@ -1,0 +1,5 @@
+# Image trick using html fragment and quirks in how roll20 autocompletes those. Apart from curlies, everything must be copied exactly
+<img src={replace this and brackets with direct image source})
+
+# Roll macro using roll templates and custom image source for title
+&{template:name} {{name=<img src=https://i.imgur.com/TC8TdM9.gif)}} {{row1[[inlineroll1]][[inlineroll2]][[roll3roll]]}} {{row2}} {{row3}}
